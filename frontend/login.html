@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Portal - Annam Farm Intelligence</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="auth-wrapper">
+        <div class="auth-container">
+            <div class="logo">Annam Farm <span>Intelligence</span></div>
+            <p class="subtitle">Secure Enterprise Portal</p>
+            
+            <div class="tabs">
+                <button class="tab-btn active" id="tab-login">Sign In</button>
+                <button class="tab-btn" id="tab-register">Register</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" class="auth-form active">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="loginUser" required placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="loginPass" required placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn-primary">Authenticate</button>
+                <div id="loginMessage" class="message"></div>
+                <div class="hint">Admin Access: admin / admin123</div>
+            </form>
+
+            <!-- Register Form -->
+            <form id="registerForm" class="auth-form">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="regName" required placeholder="e.g. Sujit Mandal">
+                </div>
+                <div class="form-group">
+                    <label>Location (State/UT)</label>
+                    <input type="text" id="regLocation" required list="indian-states" placeholder="Start typing state name...">
+                    <datalist id="indian-states">
+                        <option value="Andhra Pradesh">
+                        <option value="Arunachal Pradesh">
+                        <option value="Assam">
+                        <option value="Bihar">
+                        <option value="Chhattisgarh">
+                        <option value="Goa">
+                        <option value="Gujarat">
+                        <option value="Haryana">
+                        <option value="Himachal Pradesh">
+                        <option value="Jharkhand">
+                        <option value="Karnataka">
+                        <option value="Kerala">
+                        <option value="Madhya Pradesh">
+                        <option value="Maharashtra">
+                        <option value="Manipur">
+                        <option value="Meghalaya">
+                        <option value="Mizoram">
+                        <option value="Nagaland">
+                        <option value="Odisha">
+                        <option value="Punjab">
+                        <option value="Rajasthan">
+                        <option value="Sikkim">
+                        <option value="Tamil Nadu">
+                        <option value="Telangana">
+                        <option value="Tripura">
+                        <option value="Uttar Pradesh">
+                        <option value="Uttarakhand">
+                        <option value="West Bengal">
+                        <option value="Andaman and Nicobar Islands">
+                        <option value="Chandigarh">
+                        <option value="Dadra and Nagar Haveli and Daman and Diu">
+                        <option value="Lakshadweep">
+                        <option value="Delhi">
+                        <option value="Puducherry">
+                        <option value="Ladakh">
+                        <option value="Jammu and Kashmir">
+                    </datalist>
+                </div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" id="regUser" required placeholder="Choose a username">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="regPass" required placeholder="Min 8 chars, 1 number, 1 special char">
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="regPassConfirm" required placeholder="Repeat password">
+                </div>
+                <button type="submit" class="btn-primary">Create Account</button>
+                <div id="registerMessage" class="message"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

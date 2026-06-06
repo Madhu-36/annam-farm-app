@@ -1,0 +1,16 @@
+{
+  "name": "Annam Farm Intelligence",
+  "short_name": "Annam Farm",
+  "description": "AI-Driven Agriculture Intelligence Application",
+  "start_url": "/frontend/login.html",
+  "display": "standalone",
+  "background_color": "#081c15",
+  "theme_color": "#2d6a4f",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3004/3004122.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

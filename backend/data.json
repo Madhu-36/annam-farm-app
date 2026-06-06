@@ -1,0 +1,25 @@
+{
+  "harvests": [
+    { "id": 1, "farmer": "Shankar", "variety": "Bunny", "seed_qty": 2.5, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 500, "yield_q": 19 },
+    { "id": 2, "farmer": "Ramesh", "variety": "NCS-145", "seed_qty": 2, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 500, "yield_q": 17 },
+    { "id": 3, "farmer": "Mahadev", "variety": "Bunny", "seed_qty": 2.5, "sowing_time": "Late June", "fertilizer_freq": "Once", "irrigations": 2, "pest_level": "Medium", "rainfall_mm": 450, "yield_q": 16 },
+    { "id": 4, "farmer": "Kavita", "variety": "NCS-145", "seed_qty": 2, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 500, "yield_q": 16 },
+    { "id": 5, "farmer": "Suresh", "variety": "Bunny", "seed_qty": 2.5, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 500, "yield_q": 20 },
+    { "id": 6, "farmer": "Sunita", "variety": "NCS-145", "seed_qty": 2, "sowing_time": "Late June", "fertilizer_freq": "Once", "irrigations": 2, "pest_level": "Medium", "rainfall_mm": 450, "yield_q": 15 },
+    { "id": 7, "farmer": "Prakash", "variety": "Bunny", "seed_qty": 2.5, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 500, "yield_q": 21 },
+    { "id": 8, "farmer": "Meena", "variety": "NCS-145", "seed_qty": 2, "sowing_time": "Late June", "fertilizer_freq": "Once", "irrigations": 2, "pest_level": "Medium", "rainfall_mm": 450, "yield_q": 14 },
+    { "id": 9, "farmer": "A", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Twice", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 22 },
+    { "id": 10, "farmer": "B", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Twice", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 23 },
+    { "id": 11, "farmer": "C", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Early Nov", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 21 },
+    { "id": 12, "farmer": "D", "variety": "HD-2967", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Twice", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 24 },
+    { "id": 13, "farmer": "E", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Once", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 20 },
+    { "id": 14, "farmer": "F", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Twice", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 22 },
+    { "id": 15, "farmer": "G", "variety": "HD-2967", "seed_qty": 2, "sowing_time": "Early Nov", "fertilizer_freq": "Twice", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 23 },
+    { "id": 16, "farmer": "H", "variety": "PBW-343", "seed_qty": 2, "sowing_time": "Late Oct", "fertilizer_freq": "Once", "irrigations": 3, "pest_level": "Low", "rainfall_mm": 50, "yield_q": 21 },
+    { "id": 17, "farmer": "Ravi Patel", "variety": "Soybean", "seed_qty": 2, "sowing_time": "Early June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 600, "yield_q": 23, "year": 2020 },
+    { "id": 18, "farmer": "Ravi Patel", "variety": "Soybean", "seed_qty": 2, "sowing_time": "Early June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Low", "rainfall_mm": 600, "yield_q": 22, "year": 2021 },
+    { "id": 19, "farmer": "Ravi Patel", "variety": "Soybean", "seed_qty": 2, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "Medium", "rainfall_mm": 400, "yield_q": 21, "year": 2022 },
+    { "id": 20, "farmer": "Ravi Patel", "variety": "Soybean", "seed_qty": 2, "sowing_time": "Mid June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "High", "rainfall_mm": 400, "yield_q": 19, "year": 2023 },
+    { "id": 21, "farmer": "Ravi Patel", "variety": "Soybean", "seed_qty": 2, "sowing_time": "Late June", "fertilizer_freq": "Twice", "irrigations": 2, "pest_level": "High", "rainfall_mm": 400, "yield_q": 19, "year": 2024 }
+  ]
+}

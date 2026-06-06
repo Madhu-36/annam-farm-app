@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Annam Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Annam Farm <span>Admin Portal</span></div>
+        <div class="nav-links">
+            <a href="login.html" id="logoutBtn">Logout</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="section-header">
+            <h2>System Administration</h2>
+            <p>Monitor platform usage and registered farmers.</p>
+        </header>
+        
+        <div class="dashboard-grid">
+            <div class="glass-card">
+                <h3>Platform Statistics</h3>
+                <div style="display: flex; justify-content: space-around; margin-top: 2rem;">
+                    <div style="text-align: center;">
+                        <h2 id="statLogins" style="font-size: 3rem; color: var(--accent);">0</h2>
+                        <p>Total Logins</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h2 id="statHarvests" style="font-size: 3rem; color: #48cae4;">0</h2>
+                        <p>Harvests Logged</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <h2 id="statPredictions" style="font-size: 3rem; color: #ffd166;">0</h2>
+                        <p>Predictions Made</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="glass-card table-card">
+                <h3>Registered Farmers</h3>
+                <table id="usersTable">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Location</th>
+                            <th>Registration Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Populated by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
