@@ -1,15 +1,49 @@
 {
   "name": "Annam Farm Intelligence",
-  "short_name": "Annam Farm",
-  "description": "AI-Driven Agriculture Intelligence Application",
-  "start_url": "/frontend/login.html",
+  "short_name": "Annam.ai",
+  "description": "AI-powered yield predictor and crop pathology diagnostic tool for Indian farmers. Works 100% offline.",
+  "start_url": "./login.html",
   "display": "standalone",
-  "background_color": "#081c15",
-  "theme_color": "#2d6a4f",
+  "background_color": "#0f172a",
+  "theme_color": "#0d9488",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "en-IN",
+  "categories": ["agriculture", "productivity", "education"],
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/3004/3004122.png",
+      "src": "https://img.icons8.com/fluency/192/plant-under-rain.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://img.icons8.com/fluency/512/plant-under-rain.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Predictor",
+      "short_name": "Predict",
+      "description": "Get instant AI crop yield prediction",
+      "url": "./index.html#predictor",
+      "icons": [{ "src": "https://img.icons8.com/fluency/96/artificial-intelligence.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Leaf Scanner",
+      "short_name": "Scan",
+      "description": "Diagnose plant disease from leaf photo",
+      "url": "./index.html#scanner",
+      "icons": [{ "src": "https://img.icons8.com/fluency/96/leaf.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "Dashboard with AI analytics",
+      "sizes": "1280x800",
       "type": "image/png"
     }
   ]
