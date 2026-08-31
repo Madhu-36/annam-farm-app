@@ -229,6 +229,21 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 start frontend/login.html
 ```
 
+### 🐳 Option 3: With Docker (Isolated Environment)
+You can easily spin up the Python API using Docker.
+
+```bash
+# Navigate to the backend directory
+cd backend
+
+# Build the Docker image
+docker build -t annam-farm-api .
+
+# Run the container
+docker run -d -p 8000:8000 annam-farm-api
+```
+The API will be available at `http://localhost:8000`.
+
 The backend API will be available at: `http://localhost:8000`
 Swagger documentation: `http://localhost:8000/docs`
 
