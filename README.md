@@ -10,7 +10,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Madhu-36/annam-farm-app?style=flat-square&color=2563eb)](https://github.com/Madhu-36/annam-farm-app/network)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
 [![PWA Ready](https://img.shields.io/badge/PWA-Offline%20First-5a0fc8?style=flat-square)](https://web.dev/progressive-web-apps/)
-[![Version](https://img.shields.io/badge/Version-3.2.0-orange?style=flat-square)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/Version-3.3.0-orange?style=flat-square)](./CHANGELOG.md)
 [![Made in India](https://img.shields.io/badge/Made%20in-India%20🇮🇳-FF9933?style=flat-square)](https://github.com/Madhu-36)
 
 > *Empowering India's smallholder farmers with AI-driven yield predictions, real-time crop pathology diagnostics, and personalized agronomy insights — all 100% offline, directly on their smartphones.*
