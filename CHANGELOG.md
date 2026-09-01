@@ -6,6 +6,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and 
 
 ---
 
+## [3.1.0] - 2026-09-01 — DevOps & Architecture Enhancement
+
+### Added
+- **ADR Documentation** — Introduced Architecture Decision Records (docs/adr) starting with Offline-first PWA.
+- **Code Quality Tools** — Added ESLint and Prettier configurations for frontend JS standardization.
+- **Backend Utilities** — Added `utils.py` for revenue calculation and feature normalization.
+- **Test Coverage** — Added `.coveragerc` for pytest coverage tracking.
+- **Dependabot CI** — Configured automated dependency updates for pip and GitHub Actions.
+- **FAQ Document** — Added `docs/faq.md` to address common user queries.
+- **Offline Fallback Page** — Added `offline.html` for better PWA experience when cache misses occur.
+
+---
+
 ## [3.0.0] - 2026-08-16 — Enterprise Upgrade
 
 ### Added
