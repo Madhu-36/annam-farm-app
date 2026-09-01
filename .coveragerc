@@ -1,0 +1,9 @@
+[run]
+source = backend
+omit =
+    backend/tests/*
+    backend/seed.py
+
+[report]
+show_missing = True
+fail_under = 80
