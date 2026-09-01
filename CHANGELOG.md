@@ -6,6 +6,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and 
 
 ---
 
+## [3.2.0] - 2026-09-01 — Developer Experience & CI
+
+### Added
+- **Docker Compose** — Added `docker-compose.yml` for isolated local backend deployments.
+- **Pydantic Models** — Added API request/response models in `models.py` for FastAPI.
+- **Developer Tools** — Added `requirements-dev.txt` for pytest, flake8, and black.
+- **Style Guide** — Created `docs/style-guide.md` covering JS, CSS, and Python standards.
+- **EditorConfig** — Added `.editorconfig` to enforce cross-editor formatting rules.
+- **CI Linting** — Updated GitHub Actions workflow to run `flake8` before tests.
+- **Apple Touch Icon** — Added specific iOS home screen icon in `manifest.json`.
+- **Test Coverage** — Added basic tests for new utility functions in `test_utils.py`.
+
+---
+
 ## [3.1.0] - 2026-09-01 — DevOps & Architecture Enhancement
 
 ### Added
