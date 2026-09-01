@@ -6,6 +6,20 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and 
 
 ---
 
+## [3.3.0] - 2026-09-01 — Roadmap & Workflow Upgrades
+
+### Added
+- **Product Roadmap** — Outlined upcoming plans for Q4 2026 and Q1 2027 in `ROADMAP.md`.
+- **Security Headers** — Added `vercel.json` to enforce strict security headers.
+- **Pre-commit Hooks** — Added `.pre-commit-config.yaml` to run formatting checks automatically.
+- **API Tests** — Wrote basic integration tests for FastAPI endpoints in `test_api.py`.
+- **Agronomy Glossary** — Created `glossary.md` to define farming terms used across the app.
+- **Release CI** — Added `.github/workflows/release.yml` for automated GitHub releases.
+- **Pytest Config** — Added `pytest.ini` for standardized test runs.
+- **Screenshots Directory** — Setup directory for housing documentation images.
+
+---
+
 ## [3.2.0] - 2026-09-01 — Developer Experience & CI
 
 ### Added
